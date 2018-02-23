@@ -5,6 +5,7 @@
 
 #box1 {
    background-color: red;
+   float: left;
 }
 
 #box2 {
@@ -12,13 +13,16 @@
    padding: 20px;
    margin: 20px auto;
    border:  solid 3px black;
+   clear: left;
 }
 
 #box3 {
    background-color: purple;
+   float: left;
 }
 
 #container {
   width: 500px;
   background-color: grey;
+  overflow: hidden;
 }
